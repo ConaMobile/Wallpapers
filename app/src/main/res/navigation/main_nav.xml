@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.conamobile.walpapers.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_homeAllFragment"
+            app:destination="@id/homeAllFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_homeBlackFragment"
+            app:destination="@id/homeBlackFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_home4KFragment"
+            app:destination="@id/home4KFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_homeMoonFragment"
+            app:destination="@id/homeMoonFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_homeGamingFragment"
+            app:destination="@id/homeGamingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_homeCarsFragment"
+            app:destination="@id/homeCarsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_homeNatureFragment"
+            app:destination="@id/homeNatureFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.conamobile.walpapers.fragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_accountFragment"
+            app:destination="@id/accountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.conamobile.walpapers.fragment.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_favoritesFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.conamobile.walpapers.fragment.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/homeAllFragment"
+        android:name="com.conamobile.walpapers.fragment.HomeAllFragment"
+        android:label="fragment_home_all"
+        tools:layout="@layout/fragment_home_all">
+        <action
+            android:id="@+id/action_homeAllFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_homeAllFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeBlackFragment"
+        android:name="com.conamobile.walpapers.fragment.HomeBlackFragment"
+        android:label="fragment_home_black"
+        tools:layout="@layout/fragment_home_black">
+        <action
+            android:id="@+id/action_homeBlackFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_homeBlackFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/home4KFragment"
+        android:name="com.conamobile.walpapers.fragment.Home4KFragment"
+        android:label="fragment_home4_k"
+        tools:layout="@layout/fragment_home4_k">
+        <action
+            android:id="@+id/action_home4KFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_home4KFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeMoonFragment"
+        android:name="com.conamobile.walpapers.fragment.HomeMoonFragment"
+        android:label="fragment_home_moon"
+        tools:layout="@layout/fragment_home_moon">
+        <action
+            android:id="@+id/action_homeMoonFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_homeMoonFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeGamingFragment"
+        android:name="com.conamobile.walpapers.fragment.HomeGamingFragment"
+        android:label="fragment_home_gaming"
+        tools:layout="@layout/fragment_home_gaming">
+        <action
+            android:id="@+id/action_homeGamingFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_homeGamingFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeCarsFragment"
+        android:name="com.conamobile.walpapers.fragment.HomeCarsFragment"
+        android:label="fragment_home_cars"
+        tools:layout="@layout/fragment_home_cars">
+        <action
+            android:id="@+id/action_homeCarsFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_homeCarsFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeNatureFragment"
+        android:name="com.conamobile.walpapers.fragment.HomeNatureFragment"
+        android:label="fragment_home_nature"
+        tools:layout="@layout/fragment_home_nature">
+        <action
+            android:id="@+id/action_homeNatureFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_homeNatureFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.conamobile.walpapers.fragment.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.conamobile.walpapers.fragment.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/favoritesDetailFragment"
+        android:name="com.conamobile.walpapers.fragment.FavoritesDetailFragment"
+        android:label="fragment_favorites_detail"
+        tools:layout="@layout/fragment_favorites_detail" />
+</navigation>

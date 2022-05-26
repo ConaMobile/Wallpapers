@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "243297171931",
+    "project_id": "wallpapers-23e0e",
+    "storage_bucket": "wallpapers-23e0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243297171931:android:7d91ceed392014b3e74ffe",
+        "android_client_info": {
+          "package_name": "com.conamobile.walpapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243297171931-bn63e5tm5925teqml2tsmbcgtbdpu335.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.conamobile.walpapers",
+            "certificate_hash": "eb31091071d88cc41517bc25fd135bdabd30d7bf"
+          }
+        },
+        {
+          "client_id": "243297171931-gta8gh36h07ci038r9cno1h2fulb4mpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5O7gYuyyXbjMz5uKvli2h4NUmt6cYQOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243297171931-gta8gh36h07ci038r9cno1h2fulb4mpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

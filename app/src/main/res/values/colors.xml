@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#F2000000</color>
+    <color name="white">#fffcfdff</color>
+    <color name="real_white">#fffcfdff</color>
+    <color name="night_color">#ff26252b</color>
+    <color name="blue_color">#ff0084ff</color>
+    <color name="yellow">#ffffd600</color>
+    <color name="default_darker_gray">#808080</color>
+    <color name="text_input_icon_tint_focus">#ff0084ff</color>
+    <color name="text_input_icon_tint_not_focus">#808080</color>
+    <color name="login_text_color">#ff26252b</color>
+    <color name="login_card_background">#ff0084ff</color>
+    <color name="login_status_bar_color">#ff0084ff</color>
+    <color name="login_welcome_color">#ff0084ff</color>
+    <color name="null_color">#00FFFFFF</color>
+    <color name="search_card_background">#ff0084ff</color>
+    <color name="back_color_25">#40FCFDFF</color>
+
+    <color name="random1">#758283</color>
+    <color name="random2">#242B2E</color>
+    <color name="random3">#CAD5E2</color>
+    <color name="random4">#030523</color>
+    <color name="random5">#EDBF69</color>
+    <color name="random6">#38CC77</color>
+    <color name="random7">#23C4ED</color>
+
+    <color name="lightBlue">#FF7180DD</color>
+    <color name="lightYellow">#FFDECB97</color>
+</resources>
